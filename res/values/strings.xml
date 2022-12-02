@@ -14595,4 +14595,9 @@ To improve performance, you can set up Face Unlock again in Settings."</string>
     <string name="security_settings_face_enroll_too_hot_message">Face Unlock setup can’t be completed because the phone is too hot. Try again later when the phone cools down.</string>
     <string name="security_settings_face_enroll_too_hot_skip_face_unlock">Skip Face Unlock</string>
     <string name="security_settings_face_enroll_too_hot_title">Phone is too hot</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery usage data will be lost</string>
+    <string name="battery_stats_clear" translatable="false">@string/proxy_clear_text</string>
 </resources>
