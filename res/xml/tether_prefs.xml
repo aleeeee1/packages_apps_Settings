@@ -17,7 +17,13 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/tether_settings_title_all">
+    android:title=" ">
+
+    <!-- Switch Fragment Title To Banner View -->
+
+    <Preference
+        settings:layout="@layout/afterlife_tether_header"
+        android:order="-999" />
 
     <com.android.settingslib.widget.TopIntroPreference
         android:key="tether_prefs_top_intro"

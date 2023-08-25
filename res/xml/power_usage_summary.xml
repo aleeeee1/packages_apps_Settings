@@ -18,8 +18,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="power_usage_summary_screen"
-    android:title="@string/power_usage_summary_title"
+    android:title=" "
     settings:keywords="@string/keywords_battery">
+
+    <!-- Switch Fragment Title To Banner View -->
+
+    <Preference
+        settings:layout="@layout/afterlife_battery_header"
+        android:order="-999" />
 
     <com.android.settingslib.widget.UsageProgressBarPreference
         android:key="battery_header"

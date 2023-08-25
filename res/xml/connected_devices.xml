@@ -18,7 +18,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="connected_devices_screen"
-    android:title="@string/connected_devices_dashboard_title">
+    android:title=" ">
+
+    <!-- Switch Fragment Title To Banner View -->
+
+    <Preference
+        settings:layout="@layout/afterlife_connected_header"
+        android:order="-999" />
+
 
     <com.android.settings.slices.SlicePreference
         android:key="bt_nearby_slice"

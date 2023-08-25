@@ -352,4 +352,10 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <string name="summary_account">Saved passwords, auto fill, sinced accounts</string>
+    <string name="summary_conect">Sim status, data saver, DNS, and VPN</string>
+    <string name="summary_hspt">Share internet to other device</string>
+    <string name="title_hspt">Portable hotspot</string>
+    <string name="title_conectivity">Connectivity</string>
 </resources>

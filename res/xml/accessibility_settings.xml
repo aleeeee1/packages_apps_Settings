@@ -19,7 +19,13 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="accessibility_settings_screen"
     android:persistent="false"
-    android:title="@string/accessibility_settings">
+    android:title=" ">
+
+    <!-- Switch Fragment Title To Banner View -->
+
+    <Preference
+        settings:layout="@layout/afterlife_accessibility_header"
+        android:order="-999" />
 
     <PreferenceCategory
         android:key="user_installed_services_category"

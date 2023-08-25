@@ -18,8 +18,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="user_and_account_settings_screen"
-    android:title="@string/account_dashboard_title"
+    android:title=" "
     settings:keywords="@string/keywords_accounts">
+
+    <!-- Switch Fragment Title To Banner View -->
+
+    <Preference
+        settings:layout="@layout/afterlife_account_header"
+        android:order="-999" />
 
     <PreferenceCategory
         android:key="passwords_category"

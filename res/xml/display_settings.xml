@@ -18,8 +18,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="display_settings_screen"
-    android:title="@string/display_settings"
+    android:title=" "
     settings:keywords="@string/keywords_display">
+
+    <!-- Switch Fragment Title To Banner View -->
+
+    <Preference
+        settings:layout="@layout/afterlife_display_header"
+        android:order="-999" />
 
     <PreferenceCategory
         android:title="@string/category_name_brightness">
