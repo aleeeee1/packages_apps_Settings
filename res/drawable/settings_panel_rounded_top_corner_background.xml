@@ -21,6 +21,6 @@
             android:topRightRadius="@*android:dimen/config_dialogCornerRadius"
             android:bottomLeftRadius="@*android:dimen/config_dialogCornerRadius"
             android:bottomRightRadius="@*android:dimen/config_dialogCornerRadius"/>
-        <solid android:color="?android:attr/colorBackground" />
+        <solid android:color="@color/panel_background_color" />
     </shape>
 </inset>
