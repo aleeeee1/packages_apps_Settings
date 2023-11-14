@@ -551,10 +551,10 @@
     <dimen name="card_margin_rui_start">38.0dp</dimen>
     <dimen name="card_margin_rui_end">24.0dp</dimen>
     <dimen name="card_padding_end">70.0dp</dimen>
-    <dimen name="card_height">75.0dp</dimen>
+    <dimen name="card_height">68.0dp</dimen>
     <dimen name="card_height_rui">75.0dp</dimen>
     <dimen name="card_height_round">75.0dp</dimen>
-    <dimen name="card_radius_wave">22dp</dimen>
+    <dimen name="card_radius_wave">32dp</dimen>
     <dimen name="card_radius">32dp</dimen>
     <dimen name="top_card_radius">12dp</dimen>
     <dimen name="mid_card_radius">12dp</dimen>
