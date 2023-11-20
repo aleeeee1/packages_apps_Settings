@@ -32,7 +32,7 @@
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
 
     <com.android.settingslib.widget.LayoutPreference
-        android:layout="@layout/usercard"
+        android:layout="@layout/usercard_round_circle"
         android:fragment="com.android.settings.users.UserSettings"
         android:key="top_level_usercard"
         android:order="-170" />
