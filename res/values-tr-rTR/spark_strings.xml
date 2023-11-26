@@ -99,11 +99,11 @@
     <string name="default_user">Kullanıcı</string>
     <string name="build_status">Oluştruma durumu</string>
     <string name="build_status_summary_placeholder">Naber?</string>
-    <string name="build_is_official_title">Cihaz resmi olarak destekleniyor!</string>
-    <string name="build_is_community_title">Cihaz resmi olarak destekleniyor!</string>
-    <string name="build_is_official_summary">%s tarafından sevgiyle inşa edildi</string>
+    <string name="build_is_official_title">Device Has Custom Build support!</string>
+    <string name="build_is_community_title">Unofficially Custom Build</string>
+    <string name="build_is_official_summary">Custom Build by %s</string>
     <string name="build_is_official_summary_oopsie">ama bu yapıyı kim yaptı?</string>
-    <string name="build_is_community_summary">Official build by %s</string>
+    <string name="build_is_community_summary">Unofficial build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! lütfen derleyiciye gerekli yapı bayraklarını eklemeyi unuttuğunu söyleyin!</string>
     <string name="top_level_settings_title">Ayarlar</string>
     <string name="my_device_settings">Cihazım</string>

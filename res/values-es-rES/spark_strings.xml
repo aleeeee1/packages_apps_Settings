@@ -99,11 +99,11 @@
     <string name="default_user">Usuario</string>
     <string name="build_status">Estado de la compilación</string>
     <string name="build_status_summary_placeholder">¿Qué pasa?</string>
-    <string name="build_is_official_title">¡Dispositivo soportado oficialmente!</string>
-    <string name="build_is_community_title">¡Dispositivo soportado oficialmente!</string>
-    <string name="build_is_official_summary">Compilado con amor por %s</string>
+    <string name="build_is_official_title">Device Has Custom Build support!</string>
+    <string name="build_is_community_title">Unofficially Custom Build</string>
+    <string name="build_is_official_summary">Custom Build by %s</string>
     <string name="build_is_official_summary_oopsie">pero, ¿quién compiló esto?</string>
-    <string name="build_is_community_summary">Versión oficial de %s</string>
+    <string name="build_is_community_summary">Unofficial build by %s</string>
     <string name="build_is_community_summary_oopsie">¡Psst! ¡Por favor, dile al constructor que ha olvidado añadir build flags necesarias!</string>
     <string name="top_level_settings_title">Ajustes</string>
     <string name="my_device_settings">Mi dispositivo</string>

@@ -99,11 +99,11 @@
     <string name="default_user">Користувач</string>
     <string name="build_status">Статус збірки</string>
     <string name="build_status_summary_placeholder">Що нового?</string>
-    <string name="build_is_official_title">Ваш пристрій офіційно підтримується!</string>
-    <string name="build_is_community_title">Ваш пристрій офіційно підтримується!</string>
-    <string name="build_is_official_summary">Створено з любов\'ю від %s</string>
+    <string name="build_is_official_title">Device Has Custom Build support!</string>
+    <string name="build_is_community_title">Unofficially Custom Build</string>
+    <string name="build_is_official_summary">Custom Build by %s</string>
     <string name="build_is_official_summary_oopsie">але хто створив цю збірку?</string>
-    <string name="build_is_community_summary">Official build by %s</string>
+    <string name="build_is_community_summary">Unofficial build by %s</string>
     <string name="build_is_community_summary_oopsie">Хей! Будь ласка, повідомте збиральнику прошивки, щоб він не забув додати необхідні прапори збірки!</string>
     <string name="top_level_settings_title">Налаштування</string>
     <string name="my_device_settings">Мій пристрій</string>

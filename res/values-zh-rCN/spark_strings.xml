@@ -99,11 +99,11 @@
     <string name="default_user">用户</string>
     <string name="build_status">构建状态</string>
     <string name="build_status_summary_placeholder">怎么了?</string>
-    <string name="build_is_official_title">设备已被正式支持！</string>
-    <string name="build_is_community_title">设备已被正式支持！</string>
-    <string name="build_is_official_summary">%s 用爱建造</string>
+    <string name="build_is_official_title">Device Has Custom Build support!</string>
+    <string name="build_is_community_title">Unofficially Custom Build</string>
+    <string name="build_is_official_summary">Custom Build by %s</string>
     <string name="build_is_official_summary_oopsie">但是谁制作了此构建？</string>
-    <string name="build_is_community_summary">Official build by %s</string>
+    <string name="build_is_community_summary">Unofficial build by %s</string>
     <string name="build_is_community_summary_oopsie">喂！请告诉构建者他/她忘了添加所需的构建标志！</string>
     <string name="top_level_settings_title">设置</string>
     <string name="my_device_settings">我的设备</string>

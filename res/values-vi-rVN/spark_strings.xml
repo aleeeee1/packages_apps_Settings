@@ -99,11 +99,11 @@
     <string name="default_user">Người dùng</string>
     <string name="build_status">Trạng thái bản dựng</string>
     <string name="build_status_summary_placeholder">Có chuyện gì vậy?</string>
-    <string name="build_is_official_title">Thiết bị được hỗ trợ chính thức!</string>
-    <string name="build_is_community_title">Thiết bị được hỗ trợ chính thức!</string>
-    <string name="build_is_official_summary">Được xây dựng bằng tình yêu bởi %s</string>
+    <string name="build_is_official_title">Device Has Custom Build support!</string>
+    <string name="build_is_community_title">Unofficially Custom Build</string>
+    <string name="build_is_official_summary">Custom Build by %s</string>
     <string name="build_is_official_summary_oopsie">nhưng, ai đã tạo ra công trình này?</string>
-    <string name="build_is_community_summary">Official build by %s</string>
+    <string name="build_is_community_summary">Unofficial build by %s</string>
     <string name="build_is_community_summary_oopsie">Xin lỗi! vui lòng nói với người xây dựng rằng anh ấy/cô ấy quên thêm các cờ xây dựng cần thiết!</string>
     <string name="top_level_settings_title">Cài đặt</string>
     <string name="my_device_settings">Thiết bị của tôi</string>
