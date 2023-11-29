@@ -25,6 +25,16 @@ Copyright (C) The 2023 the risingOS Android Project
         android:minWidth="160dp"
         app:cardCornerRadius="28dp"
         app:cardElevation="3dp">
+
+        <com.spark.utils.WallpaperBlurView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+	    android:scaleType="centerCrop"
+            android:foreground="#7A000000"
+            android:gravity="center"
+            android:elevation="0dp"
+            android:contentDescription="@null"
+            android:orientation="vertical" />
                 
         <LinearLayout
             android:id="@+id/banner_layout"
@@ -48,7 +58,7 @@ Copyright (C) The 2023 the risingOS Android Project
                     android:gravity="start"
                     android:scrollHorizontally="true"
                     android:singleLine="true"
-                    android:textColor="?android:attr/textColorPrimary"
+		    android:textColor="@color/about_card"
 		    android:fontFamily="@*android:string/config_headlineFontFamily"
                     android:textSize="30sp" />
 
@@ -57,12 +67,13 @@ Copyright (C) The 2023 the risingOS Android Project
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:fadingEdge="horizontal"
-                    android:paddingTop="42dp"
+		    android:paddingTop="45dp"
+		    android:layout_marginLeft="1dp"
                     android:gravity="start"
                     android:scrollHorizontally="true"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:textColor="?android:attr/textColorPrimary"
+                    android:textColor="@color/about_card"
 		    android:fontFamily="@*android:string/config_headlineFontFamily"
                     android:textSize="17sp" />
             </RelativeLayout>
@@ -75,7 +86,7 @@ Copyright (C) The 2023 the risingOS Android Project
 
                 <TextView
                     android:id="@+id/hashtag"
-                    android:text="#Ghostly"
+                    android:text="#Expose u'r dark side"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:fadingEdge="horizontal"
@@ -84,9 +95,9 @@ Copyright (C) The 2023 the risingOS Android Project
                     android:scrollHorizontally="true"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:textColor="?android:attr/textColorPrimary"
-		    android:textSize="18sp"
-		    android:fontFamily="@*android:string/config_headlineFontFamily" />
+                    android:textColor="@color/about_card"
+                    android:textSize="18sp"
+                    android:fontFamily="@*android:string/config_headlineFontFamily" />
             </RelativeLayout>
 
         </LinearLayout>
@@ -101,13 +112,13 @@ Copyright (C) The 2023 the risingOS Android Project
         android:layout_gravity="end"
         app:cardElevation="0dp"
         app:cardCornerRadius="28dp"
-        app:strokeColor="?android:attr/textColorPrimary"
+        app:strokeColor="@color/about_card"
         app:strokeWidth="3dp">
 
-        <com.rice.utils.aboutWallpaperView
+        <com.spark.utils.aboutWallpaperView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerCrop"
+	    android:scaleType="centerCrop"
             android:gravity="center"
             android:elevation="0dp"
             android:contentDescription="@null"
