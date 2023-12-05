@@ -25,6 +25,7 @@
 
     <Preference
         settings:layout="@layout/afterlife_privacy_header"
+        android:clickable="false"
         android:order="-999" />
 
     <!-- Work Policy info -->

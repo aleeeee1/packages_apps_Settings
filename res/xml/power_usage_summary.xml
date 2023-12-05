@@ -25,6 +25,7 @@
 
     <Preference
         settings:layout="@layout/afterlife_battery_header"
+        android:clickable="false"
         android:order="-999" />
 
     <com.android.settingslib.widget.UsageProgressBarPreference

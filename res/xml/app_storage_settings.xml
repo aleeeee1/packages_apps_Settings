@@ -17,7 +17,15 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
-    android:title="@string/storage_label">
+    android:title=" ">
+
+
+    <!-- Switch Fragment Title To Banner View -->
+    
+    <Preference
+        settings:layout="@layout/afterlife_storage_header"
+        android:clickable="false"
+        android:order="-999" />
 
     <com.android.settingslib.widget.ActionButtonsPreference
         android:key="header_view" />

@@ -24,6 +24,7 @@
 
     <Preference
         settings:layout="@layout/afterlife_system_header"
+        android:clickable="false"
         android:order="-999" />
 
     <Preference

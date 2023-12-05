@@ -23,6 +23,7 @@
 
     <Preference
         settings:layout="@layout/afterlife_notification_header"
+        android:clickable="false"
         android:order="-999" />
 
     <PreferenceCategory
