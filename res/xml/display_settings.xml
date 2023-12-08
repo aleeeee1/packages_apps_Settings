@@ -18,7 +18,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="display_settings_screen"
-    android:title=" "
+    android:title="Settings"
     settings:keywords="@string/keywords_display">
 
     <!-- Switch Fragment Title To Banner View -->
