@@ -564,7 +564,7 @@
     <dimen name="pref_bot_card_bottom_margin">10dp</dimen>
     <dimen name="dashboard_icon_size">42dp</dimen>
     <dimen name="top_pref_start">60dp</dimen>
-    <dimen name="card_height_oos">70.0dp</dimen>
+    <dimen name="card_height_oos">67.0dp</dimen>
 
     <dimen name="card_margin_start_aqua">20dp</dimen>
     <dimen name="card_margin_end_aqua">20dp</dimen>
